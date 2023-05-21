@@ -15,5 +15,8 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "builds": {
+    "command": "npm install"
+  }
 }
