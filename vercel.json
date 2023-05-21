@@ -17,6 +17,6 @@
     }
   ],
   "builds": {
-    "command": "npm install"
+    "command": "npm install express ejs path"
   }
 }
