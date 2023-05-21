@@ -4,6 +4,10 @@
     {
       "src": "server.js",
       "use": "@now/node"
+    },
+    {
+      "src": "*.ejs",
+      "use": "@now/static"
     }
   ],
   "routes": [
@@ -16,7 +20,9 @@
       "dest": "/index.html"
     }
   ],
-  "builds": {
-    "command": "npm install express ejs path"
+  "build": {
+    "env": {
+      "BUILD_COMMAND": "npm install"
+    }
   }
 }
