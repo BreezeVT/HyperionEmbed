@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/embed/(.*)",
-      "dest": "server.js"
+      "dest": "views/index.ejs"
     },
     {
       "src": "/(.*)",
